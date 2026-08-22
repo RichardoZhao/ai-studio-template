@@ -216,4 +216,4 @@ Hermes 启动讨论 → 创建 `Discussions/[主题]_YYYY-MM-DD.md` → 各智�
 
 ---
 
-> *Harness 标准版 v1.0 — 2026年7月*
+> *AI_Studio 工作间体系 v1.0 — 2026年7月*

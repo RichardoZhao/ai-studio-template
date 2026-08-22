@@ -1,5 +1,7 @@
 # AI_Studio 工作间模板（教学版）
 
+![license](https://img.shields.io/badge/license-MIT-blue.svg) ![version](https://img.shields.io/badge/version-1.0-teal.svg)
+
 一个**开箱即用的 AI 智能体工作间**。复制到你的电脑，把 AI 指过来，它自己就能读、能干活。
 
 > 无需安装、无需配置、无需记命令。**复制 → 指向 → 开始。**
@@ -41,9 +43,11 @@ AI_Studio_Template/            ← 复制整个文件夹，可放任意盘符
 
    > 你的工作间在 <这个文件夹的路径>。开始前先读：0_Introduction/00_工作间总览.md、1_Memory/04_工作纪律.md、3_MeetingRoom/Bulletin_Template.md。然后按 1_Memory/ 里的模板认识我。
 
-4. **可选但推荐**：打开 `1_Memory/02_个人信息_模板.md`，把 [待填写] 改成你的真实信息——AI 会更懂你
+4. **启用公告板**：将 `3_MeetingRoom/Bulletin_Template.md` 复制一份命名为 `Bulletin.md`（公告板运行时文件，模板版只作格式参考）
 
-就这四步，不用装任何东西。
+5. **可选但推荐**：打开 `1_Memory/02_个人信息_模板.md`，把 [待填写] 改成你的真实信息——AI 会更懂你
+
+就这五步，不用装任何东西。
 
 ---
 
@@ -57,6 +61,12 @@ AI_Studio_Template/            ← 复制整个文件夹，可放任意盘符
 | 1_Memory/05_项目清单_模板.md | 登记所有项目 |
 | 0_Introduction/05_注入层对齐指引.md | 多智能体记忆瘦身方案（薄注入层+厚事实源） |
 | 3_MeetingRoom/Bulletin_Template.md | 公告板 + 协作协议模板 |
+
+---
+
+## 关于示例内容
+
+> 本模板以一个真实多智能体工作间为蓝本提炼。文档中出现的智能体名（Hermes / WorkBuddy / Wukong 等）、版本号、路径均为**示例**，展示一个完整工作间的运作样子。使用时替换为你的实际配置即可。
 
 ---
 

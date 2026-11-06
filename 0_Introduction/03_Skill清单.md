@@ -9,8 +9,8 @@
 
 | 技能名 | 用途 | 来源 |
 | ------ | ---- | ---- |
-| （示例）FFmpeg | 视频处理 | 共享库 0_GithubCode/3_Skills/Installed/ |
-| （示例）docx | Word 文档处理 | Hermes 内置 |
+| （示例）FFmpeg | 视频处理 | `SkillsLib/<中文分类>/` |
+| （示例）docx | Word 文档处理 | 智能体内置 |
 
 ## 待评估技能（ToInstall）
 
@@ -20,6 +20,7 @@
 
 ## 共享库登记
 
-- 共享技能库：`0_GithubCode/3_Skills/`
-- 共享代码库：`0_GithubCode/2_Codes/`
-- 登记规则见：`0_GithubCode/Readme 资源库管理协议.md`
+- 共享技能库：`SkillsLib/`（总索引 `02_清单与导航.md`；低频放 `_备选/` 并改名 `.off`）
+- 可复用脚本库：`ToolCode/`
+- 第三方仓库：`GithubRepos/`（只读）
+- 候选技能池：`SkillsLib/03_候选技能清单.md`

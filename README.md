@@ -1,6 +1,6 @@
 # AI_Studio 工作间模板（教学版）
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg) ![version](https://img.shields.io/badge/version-1.0-teal.svg)
+![license](https://img.shields.io/badge/license-MIT-blue.svg) ![version](https://img.shields.io/badge/version-2.0-teal.svg)
 
 一个**开箱即用的 AI 智能体工作间**。复制到你的电脑，把 AI 指过来，它自己就能读、能干活。
 
@@ -23,15 +23,19 @@
 
 ```
 AI_Studio_Template/            ← 复制整个文件夹，可放任意盘符
-├── 0_GithubCode/              # 🤝 共享代码与技能库（工具/代码/SKILL 三级分离）
 ├── 0_Introduction/            # 📖 说明书（总览/协作/日志/设计理念/注入层对齐）
 ├── 1_Memory/                  # 🧠 身份与规则（角色模板/个人信息模板/工作纪律）
 ├── 2_Projects/                # 📦 项目主战场（实际干活的地方）
-├── 3_MeetingRoom/             # 🏛️ 公共讨论与公告（公告板/讨论/信件）
-└── 4_Logs/                    # 📋 日志（工作日志/维护日志）
+├── 3_MeetingRoom/             # 🏛️ 公共讨论与公告（公告板/讨论/信件/结论/存档）
+├── 4_Logs/                    # 📋 日志（工作日志/维护日志）
+├── 5_Notes/                   # 🗒️ 笔记与剪藏（个人知识库）
+├── ToolCode/                  # 🔧 可复用脚本库（01_文件与文档 … 05_系统与环境）
+├── SkillsLib/                 # 🤝 共享技能库（中文分类 + _备选 + 总索引）
+└── GithubRepos/               # 📚 第三方整包仓库（只读、不改造）
 ```
 
-> 编号体系（0-4）是给**人**看的——按位置找目录方便。AI 靠文件名检索，不受编号限制。
+> 编号体系（0-5）是给**人**看的——按位置找目录方便。AI 靠文件名检索，不受编号限制。
+> 三个无编号目录（ToolCode / SkillsLib / GithubRepos）是**共享资源库**，与工作间同级。
 
 ---
 
@@ -57,7 +61,7 @@ AI_Studio_Template/            ← 复制整个文件夹，可放任意盘符
 | ---- | ---- |
 | 1_Memory/01_角色设定_模板.md | 定义 AI 的角色、性格、沟通风格 |
 | 1_Memory/02_个人信息_模板.md | 你的基本资料、电脑环境、偏好 |
-| 1_Memory/04_工作纪律.md | 22 条通用工作纪律（危险操作确认/日志/保密等） |
+| 1_Memory/04_工作纪律.md | 通用工作纪律（危险操作确认/日志/保密等） |
 | 1_Memory/05_项目清单_模板.md | 登记所有项目 |
 | 0_Introduction/05_注入层对齐指引.md | 多智能体记忆瘦身方案（薄注入层+厚事实源） |
 | 3_MeetingRoom/Bulletin_Template.md | 公告板 + 协作协议模板 |
@@ -76,11 +80,14 @@ AI_Studio_Template/            ← 复制整个文件夹，可放任意盘符
 A：需要。即使一个 AI，公告板/信件/日志也是和 AI 沟通的正式渠道，比口头指令可靠。
 
 **Q：复制后目录里文件会越来越多，乱吗？**
-A：不会。纪律是"项目进 2_Projects、日志进 4_Logs、讨论进 3_MeetingRoom"，各归其位。AI 会遵守工作纪律（04_工作纪律.md）。
+A：不会。纪律是"项目进 2_Projects、日志进 4_Logs、讨论进 3_MeetingRoom、脚本进 ToolCode、技能进 SkillsLib"，各归其位。AI 会遵守工作纪律（04_工作纪律.md）。
 
 **Q：换电脑/换盘符怎么办？**
 A：整个文件夹直接搬走。所有文档用相对路径引用，放哪都能跑。
 
+**Q：技能库、脚本库和项目目录有什么区别？**
+A：`SkillsLib/` 放可复用的技能说明（所有智能体共享），`ToolCode/` 放可复用脚本，`2_Projects/` 放具体项目的素材、代码与成品。三者不混放。
+
 ---
 
-> 模板版本：v1.0（教学版）· 基于 AI_Studio 工作间实践提炼 · 2026-08-17
+> 模板版本：v2.0（教学版）· 结构升级为三库（ToolCode / SkillsLib / GithubRepos）· 2026-11-05
